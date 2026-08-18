@@ -16,7 +16,5 @@ def main():
     d = ((l**2) + (w**2) )**0.5
     print("Diagonal:", d)
 
-
-
 if __name__ == "__main__":
     main()
