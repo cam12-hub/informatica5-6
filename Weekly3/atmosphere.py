@@ -24,27 +24,27 @@ def main():
     if altitude == "exosphere":
     exosphere = 2
     altitude /= exosphere
-    print(altitude)
+        print(altitude)
 
     elif altitude == "thermosphere":
     thermosphere = 0.5
     altitude /= thermosphere
-    print(altitude)
+        print(altitude)
 
     elif altitude == "mesosphere":
     mesosphere = 0.2
     altitude /= mesosphere
-    print(altitude)
+        print(altitude)
 
     elif altitude == "stratosphere":
     stratosphere = 0.075
     altitude /= stratosphere
-    print(altitude)
+        print(altitude)
 
     elif altitude == "troposphere":
     troposphere = 0.02
     altitude /= troposphere
-    print(altitude)
+        print(altitude)
 
     print("Total descent time: ")
 
