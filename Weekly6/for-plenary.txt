@@ -1,0 +1,6 @@
+While:
+Is a indefinite loop; we don't know how many times we'll run the code. We use a break to stop the code and we usually use if statements inside them, so the program doesn't run infinitely.
+For:
+Is a definite loop; this loop is used when we know how many times we're repeating the loop, because it goes in a sequence. We commonly use lists for this loop.
+Compare:
+We can use a for loop inside a while loop. We know how many times is going to repeat the code and in a while loop we don't.
