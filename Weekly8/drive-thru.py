@@ -5,11 +5,21 @@ def main():
 
 
 
-def get_item(a):
+def get_item():
     menu = ["Cheeseburger", "Fries", "Soda", "Ice Cream", "Cookie"]
-    emoji  =
-    if a == menu[0]
-        print("🍔")
+    choice = input("What would you like to order?: ")
+    if choice == "cheeseburger":
+        print("Here you go! 🍔")
+    elif choice == "fries":
+        print("Here you go! 🍟")
+    elif choice == "soda":
+        print("Here you go! 🥤")
+    elif choice == "ice cream":
+        print("Here you go! 🍦")
+    elif choice == "cookie":
+        print("Here you go! 🍪")
+    else:
+        print("Please choose from the options available")
 
 
 
