@@ -1,12 +1,15 @@
-#Define main function
+import random
+def main ():#Define main function
+    start_game("random_words.txt")
 #Create a txt file containing random words
-#Define a start_game function with 1 parameter
-#Open the txt file in our start_game funtion
-#Create an empty list called word_list
+def start_game(file): #Define a start_game function with 1 parameter
+    with open(file) as random_word: #Open the txt file in our start_game funtion
+        content = random_word.read().splitlines()#Convert our txt file into a list
+    print(random.choice(content))#Print a word
 
-#Print a welcome message
-#Print a message to ask for the first letter
-#Print the number of "_" for the letter
-#Create a while loop
-#
-#
+
+
+if __name__=="__main__":
+    main()
+
+
